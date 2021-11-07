@@ -1,0 +1,19 @@
+.expenses {
+  padding: 1rem;
+  background-color: rgb(10, 10, 10);
+  margin: 2rem auto;
+  width: 50rem;
+  height: 50rem;
+  max-width: 95%;
+  overflow: scroll;
+}
+
+.expenses::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.expenses {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
